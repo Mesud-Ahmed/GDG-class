@@ -1,8 +1,10 @@
-import DisplayNames from "./DisplayNames"
+import DisplayNames from "./components/DisplayNames"
+import './App.css';
 function App() {
   const names = ['a', 'b', 'c', 'd', 'h']
   return (
-    <div>
+    <div className="app-container">
+       <h1>Welcome to the Name Display App</h1>
       {
         names.map((name,index) => (
           <DisplayNames key={index} name={name} />
