@@ -1,7 +1,8 @@
 import DisplayNames from "./components/DisplayNames"
 import './App.css';
+
 function App() {
-  const names = ['a', 'b', 'c', 'd', 'h']
+  const names = ['John', 'Emma', 'Michael', 'Sophia', 'David'];
   return (
     <div className="app-container">
        <h1>Welcome to the Name Display App</h1>
