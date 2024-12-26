@@ -1,8 +1,22 @@
-# React + Vite
+# Week 3 Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This mini project includes two functional React components: `UseCard` and `Counter`. These components are designed to practice core React concepts such as props, state, and conditional rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## UseCard Component
+
+The `UseCard` component displays user information such as name, age, and email in a styled card format.
+
+### Features
+- Displays user details in a structured list.
+- Accepts a dynamic background color using the `bgColor` prop for customization.
+
+## Counter Component
+
+The `Counter` component provides interactive counter functionality with the ability to increment, decrement, and reset the count.
+
+### Features
+- **Increment**: Increases the counter value by 1.
+- **Decrement**: Decreases the counter value by 1, but disables the button when the counter is at `0`.
+- **Reset**: Resets the counter value to `0`.
