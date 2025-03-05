@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+
+
+}
+
+button {
+    color: bisque;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 6px;
+    
+}
+button:hover{
+background-color: rgb(171, 122, 216);
+}
